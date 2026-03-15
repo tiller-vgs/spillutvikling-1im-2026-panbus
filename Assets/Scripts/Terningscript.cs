@@ -6,7 +6,7 @@ public class Terningscript : MonoBehaviour
     public Pandamovement pandaen;
     void Start()
     {
-        
+    
     }
 
 
