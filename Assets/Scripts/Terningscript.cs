@@ -12,6 +12,7 @@ public class Terningscript : MonoBehaviour
 
     void Update()
     {
+        //Denne gjør at når Space knappen er trykket så vil terningen rull 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RollDice();
@@ -24,7 +25,7 @@ public class Terningscript : MonoBehaviour
         {
            int resultat = Random.Range(1,7);
         
-        //debug er sånn at man ser hva man ruller
+        //debug er sånn at man ser hva man ruller, ned i terminalen til unity.
            Debug.Log("Du fikk " + resultat + " Bra jobbet");
         if ( pandaen != null)
         {
